@@ -1,0 +1,29 @@
+@use './variaveis';
+
+.numbers {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    &__item {
+        font-size: 2.7em;
+        font-weight: bold;
+        background-image: url(../img/enso.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        padding: 56px;
+        background-size: contain;
+
+        h4 {
+        font-size: .3em;
+        }
+
+        
+    }
+
+    @media (max-width:640px){
+        grid-template-columns: auto;
+    }
+}
+
+
+

@@ -1,8 +1,9 @@
 {
   "name": "atv-mod23",
   "version": "1.0.0",
-  "main": "index.js",
   "scripts": {
+    "dev": "parcel src/ajax.html src/styles/main.scss src/scripts/main.js",
+    "build": "parcel build src/ajax.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -10,6 +11,8 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "parcel": "^2.15.2"
+    "@parcel/transformer-sass": "^2.15.2",
+    "parcel": "^2.15.2",
+    "sharp": "^0.33.5"
   }
 }
