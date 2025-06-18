@@ -3,33 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Github Eduarda Soares</title>
+    <link rel="shortcut icon" href="./img/placa-do-github.ico" type="image/x-icon">
     <link rel="stylesheet" href="./styles/main.scss">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-     <header>
+     <header class="profile">
         <div class="container">
-            <img class="profile-avatar" id="avatar" alt=".">
-            <h1 class="profile-name" id="nome"></h1>
-            <h2 class="profile-username" id="username"></h2>
+            <img class="profile__avatar" id="avatar" alt=".">
+            <h1 class="profile__name" id="nome"></h1>
+            <h2 class="profile__username" id="username"></h2>
             <ul class="numbers">
-                <li class="numbers-item">
+                <li class="numbers__item">
                     <h4>Repositórios</h4>
                     <span id="repositorios"></span>
                     
                 </li>
-                <li class="numbers-item">
+                <li class="numbers__item">
                     <h4>Seguidores</h4>
                     <span id="seguidores"></span>
                    
                 </li>
-                <li class="numbers-item">
+                <li class="numbers__item">
                     <h4>Seguindo</h4>
                     <span id="seguindo"></span>
                     
                 </li>
             </ul>
-            <a href="#" class="profile-link" id="link">Ver no Github</a>
+            <a href="#" class="profile__link" id="link">Ver no Github</a>
         </div>
     </header>
     <script src="./scripts/jquery-3.7.1.min.js"></script>
